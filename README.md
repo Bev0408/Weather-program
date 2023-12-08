@@ -1,5 +1,5 @@
 This is a weather program that I've created within Python that utilises data from the OpenWeatherMap API to retrieve weather data for a city specified by the user. 
-The code begins by importing the necessary libraries: requests for making HTTP requests and load_dotenv along with os for handling environment variables, particularly the OpenWeatherMap API key.
+The code begins by importing the necessary libraries:  requests for making HTTP requests and load_dotenv along with os for handling environment variables, particularly the OpenWeatherMap API key.
 
 The program proceeds to load the API key from the .env file using load_dotenv. Following this, it checks the availability of the API key. If the key is missing, the program displays an error message and exits gracefully.
 
