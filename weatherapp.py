@@ -1,7 +1,7 @@
 
 import requests
 
-from dotenv import load_dotenv #loads dotenv library, and loads .env file
+from dotenv import load_dotenv #loads dotenv library and loads .env file
 import os
 
 load_dotenv() #take environment variables from .env file
@@ -35,7 +35,7 @@ while True:
     print(f"Heres a full breakdown of the weather in {user_city}.\nSkies: {weather}\nFeels like: {feels_like}°F\nMin temp: {temp_min}°F\nMax temp: {temp_max}°F\nHumidity: {humidity}%\nWind speed: {wind_speed}mph")
 
     #this will ask the user if they wish to continue or quit the program
-    predict_additional_weather = input("Would you like to recive the weather from another city? (yes/no): ")
+    predict_additional_weather = input("Would you like to receive the weather from another city? (yes/no): ")
     if predict_additional_weather !="yes":
         print("Thanks for using my applictaion!")
         break #edns loop after thanking user
