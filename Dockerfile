@@ -9,5 +9,6 @@ RUN pip install -r requirements.txt
 #Defines the env variables for the API key
 ENV api_key $api_key
 #These are the commands that will be used to run the application
-CMD ["python"], ["weatherapp.py"]
+CMD ["python", "weatherapp.py"]
+
 
